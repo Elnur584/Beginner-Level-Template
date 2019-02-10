@@ -1,0 +1,252 @@
+#body{
+    width:1200px;
+    height:1000px;
+    margin:auto;
+    background-color: #943d46;
+
+
+
+}
+#head0{
+    width:1200px;
+    height: 60px;
+    margin-left:0px;
+
+}
+.head1{
+    margin:auto;
+    height: 60px;
+    width:400px;
+    float:left;
+    color:#EFE1E1;
+}
+.head1 h2{
+    margin-left: 210px;
+    display:inline-block;
+    text-align: center;
+    color: #EFE1E1;
+}
+.head1 input{
+    display: inline-block;
+    margin-top: 24px; 
+    margin-left: 150px;   
+    margin-left: -20px;
+}
+#icon{
+
+    display:inline-block;
+    margin-top:20px;
+    margin-left: -150px;
+}
+#upload{
+     display:inline-block;
+     
+     
+     margin-top:24px;
+     margin-left: 10px;
+     
+}
+#nav{
+   border: 1px solid #EFE1E1;
+   height:40px;
+   width: 650px;
+   margin-left: 210px;
+   border-right: hidden;
+   border-left: hidden;
+   padding-right: 80px;
+   
+   
+   
+
+}
+#nav li{
+    display:block;
+    float: left;
+    margin-left: 20px;
+    color:#EFE1E1;
+    
+    
+}
+#nav ul{
+    margin-left:-58px;
+    color:#EFE1E1;
+}
+#nav a{
+    
+    text-decoration: none;
+    
+    
+}
+
+.content{
+   height:400px;
+   width:450px;
+   margin-top: 40px;
+   margin-left: 190px;
+   display: block;
+   float:left;
+   line-height:130px;  
+}
+#aside{
+    border: 1px solid #EFE1E1;
+    width: 260px;
+    height: 400px;
+    float:left;
+    margin-left: 20px;
+    margin-top: -840px;
+    border-left: hidden;
+    border-right: hidden;
+}
+#aside p{
+    float: right;
+    margin-left: 90px;
+    margin-top: -45px;
+    color:#EFE1E1;
+
+}
+.asider{
+    outline: 1px solid #EFE1E1;
+    width: 60px;
+    height: 40px;
+    margin-top: 30px;
+    margin-left: 10px;
+    background-color: #EFE1E1;
+   
+}
+#asi{
+    border: 1px solid #EFE1E1;
+    width: 260px;
+    height: 840px;
+    float:left;
+    margin-top: -400px;
+    margin-left: 20px;
+    border-left: hidden;
+    border-right: hidden;
+    
+}
+.as{
+    outline: 1px solid #EFE1E1;
+    width: 110px;
+    height: 150px;
+    margin-left: 10px;
+    margin-top: 10px;
+    float: left;
+    line-height: 270px;
+    background-color: #EFE1E1;
+    color: #943d46;
+
+
+}
+.a{
+    outline: 1px solid #EFE1E1;
+    width: 110px;
+    height: 150px;
+    margin-left: 10px;
+    margin-top: 10px;
+    float: left;
+    line-height: 270px;
+    background-color: #EFE1E1;
+    color:#943d46;
+
+
+}
+.video{
+    outline: 1px solid #EFE1E1;
+    width: 250px;
+    height: 200px;
+    margin-left: 20px;
+    margin-top: 20px;
+    color:#943d46;
+    background-color: #EFE1E1;
+    line-height: 15px;
+}
+
+.how{
+    
+    color:#943d46;
+}
+
+.photo{
+    outline: 1px solid #EFE1E1;
+    width: 120px;
+    height: 130px;
+    margin-left: 20px;
+    margin-top: 20px;
+    float: left;
+    padding-right: 4px;
+    line-height:220px;
+    color:#943d46;
+    background-color: #EFE1E1;
+
+
+}
+.photos{
+
+    outline: 1px solid #EFE1E1;
+    display: inline block;
+    width: 120px;
+    height: 130px;
+    margin-left: 20px;
+    margin-top: 20px;
+    float: left;
+    padding-right: 4px;
+    line-height:-140px;
+    color:#EFE1E1;
+    background-color: #943d46;
+    line-height:15px;
+}
+.photos p{
+    margin-top: 60px;
+    line-height:-180px;
+    margin-left: 5px;
+    text-align: right;
+
+
+}
+
+.phot{
+    outline: 1px solid #EFE1E1;
+    width: 120px;
+    height: 80px;
+    margin-top: -350px;
+    margin-left: 300px;
+    margin-right: 20px;
+    float: right;
+    background-color: #EFE1E1;
+    color:#943d46;
+}
+
+.pho{
+    outline: 1px solid #EFE1E1;
+    width: 120px;
+    height: 80px;
+    margin-top: -230px;
+    margin-left: 300px;
+    margin-right: 20px;
+    float: right;
+    background-color: #EFE1E1;
+    color:#943d46;
+
+}
+#foot{
+    border: 1px solid #EFE1E1;
+    border-right: hidden;
+    border-bottom: hidden;
+    border-left: hidden;
+    width: 730px;
+    height: 80px;
+    margin-top: 1350px;
+    margin-left: 210px;
+}
+.linke{
+
+    float:left;
+    margin-left: 10px;
+    text-decoration: none; 
+}
+
+#ul{
+    margin-left: -50px;
+    color:#EFE1E1;
+    list-style-type: none;
+}
