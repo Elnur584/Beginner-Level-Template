@@ -1,0 +1,232 @@
+header{
+    position: absolute;
+}
+.brand{
+    height: 30px;
+    padding-top: 30px;
+    z-index: 1;
+}
+.urbanscolor{
+    color: white;
+}
+.brand>a{
+    text-decoration: none;
+    margin-left: 10px;
+}
+.brand>a:hover{
+    text-decoration: none;
+    color: white;
+}
+.brand>a>span{
+    color: #3498db;
+    font-size: 18px;
+    font-family: 'Courier New', Courier, monospace;
+}
+/* Brand Css Area End */
+/* Top Section Area Start */
+.top{
+    height:500px;
+    background-image: url("image/banner.jpg");
+    background-size: cover;
+    background-position: center;
+}
+.top::before{
+    content: "";
+    position: absolute;
+    height: 500px;
+    width: 100%;
+    background-color: rgba(0, 0, 0, 0.705);
+    background-size: cover;
+}
+.thisisurban{
+    height: 250px;
+    width: 40%;
+    margin-top: 15%;
+}
+.thisisurban>p{
+    font-size: 20px;
+    font-family: 'Courier New', Courier, monospace;
+    margin-left: 17%;
+    padding-bottom: 40px;
+}
+.thisisurban>p>span{
+    margin-left: 5%;
+}
+.allh1{
+    font-size: 50px;
+    word-spacing: -12px;
+    font-family: sans-serif;
+    margin-left: 35%;
+    padding-bottom: 20px;
+    font-family: 'Courier New', Courier, monospace;
+}
+.thisisurban>a{
+    border: 1px solid #3498db;
+    background-color: #3498db;
+    padding: 14px 25px;
+    margin-left: 43%;
+    font-size: 18px; 
+    font-family: 'Courier New', Courier, monospace;
+    border-radius: 5px;
+}
+.thisisurban>a:hover{
+    color: white;
+    text-decoration: none;
+    background-color: #2e85be;
+}
+/* Top Section Area End */
+/* Main Section Area Start */
+.mainsection{
+    height: 450px;
+    background-color: #fafafa;
+    display: flex;
+    flex-direction: row;
+}
+.firstmaindivs{
+    height: 450px;
+}
+.picturediv{
+    border: 1px solid rgba(128, 128, 128, 0.479);
+    width: 312px;
+    height: 310px;
+    border-radius: 100%;
+    margin-top: 50px;
+}
+.picturediv>img{
+    width: 300px;
+    height: 300px;
+    border-radius: 100%;
+    overflow: hidden;
+    margin:4px 5px;
+}
+.allh2{
+    margin-top: 60px;
+    font-size: 26px;
+    font-family: sans-serif;
+}
+.allparagraph{
+    margin-top: 30px;
+    font-size: 14px;
+    color: rgba(128, 128, 128, 0.603);
+}
+.alllearnmore{
+    border: 1px solid #3498db;
+    background-color: #3498db;
+    padding: 10px 12px;
+    font-size: 14px; 
+    font-family: 'Courier New', Courier, monospace;
+    border-radius: 5px;
+    color: white;
+}
+.alllearnmore:hover{
+    color: white;
+    text-decoration: none;
+    background-color: #2e85be;
+}
+/* Main Section Area End */
+/* Second Section Css Area Start */
+.secondsection{
+    height: 450px;
+    background-color:#3498db;
+}
+.bluepicturediv{
+    border: 1px solid rgb(190, 188, 188);
+}
+.bluearea{
+    color: white;
+}
+.blueareaparagraph{
+    color:wheat;
+}
+.blueareabutton{
+    background-color: #fff;
+    color: #3498db;
+}
+.blueareabutton:hover{
+    background-color: #fff;
+    color: #3498db;
+}
+/* Second Section Css Area End */
+/* Third Section Css Area Start */
+.thirdsection{
+    height: 750px;
+    background-color: #fafafa;
+}
+.contentdiv{
+    height: 200px;
+}
+.allh3{
+    margin-left: 350px;
+    font-size: 35px;
+    font-family: sans-serif;
+    margin-top: 80px;
+}
+.shortparagraph{
+    font-size: 18px;
+    margin-left: 260px;
+}
+.threeimgparagraph{
+    margin-left: 20px;
+}
+.threeimgparagraph :last-child{
+    margin-left: 70px;
+}
+.paragspan{
+    margin-left: -10px;
+}
+.threepicbuttons{
+    margin-left: 90px;
+}
+/* Third Section Css Area End */
+/* Footer Area Css Start */
+.footerdiv{
+    height: 250px;
+}
+.aroundicons{
+    height: 150px;
+    width: 550px;
+    margin-top: 50px;
+    margin-left: 450px;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+i{
+    font-size: 20px;
+    border: 1px solid rgba(128, 128, 128, 0.363);
+    color: rgba(128, 128, 128, 0.767);
+    padding: 5px;
+    border-radius: 100%;
+    margin:3px 3px;
+}
+.icondivs{
+    border: 1px solid rgba(128, 128, 128, 0.342);
+    color: rgba(128, 128, 128, 0.61);
+    border-radius: 100%;
+    width: 40px;
+    height: 40px;
+    margin-right: 25px;
+}
+.fb{
+    margin:3px 4px;
+}
+.instagram{
+    margin: 3px 4px;
+}
+.snap{
+    margin: 3px 4px;
+}
+.small{
+    margin-top: 70px;
+    margin-left: -320px;
+    color: rgba(128, 128, 128, 0.603);
+}
+.overlink{
+    text-decoration: none;
+    color: rgba(66, 65, 65, 0.822);
+    font-size: 11px;
+}
+.overlink:hover{
+    text-decoration: none;
+    color: rgba(66, 65, 65, 0.822);
+}
