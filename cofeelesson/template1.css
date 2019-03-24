@@ -1,0 +1,646 @@
+
+ #head{
+        width: 1350px;
+        height: 40px;
+        display:flex;
+        flex-wrap:wrap;
+        flex-direction: row;
+        justify-content: flex-end;
+        background-color:#1c1d1d;
+        align-content: space-around; 
+        
+    }
+#head section{
+        margin-right: 140px;
+    }
+.icon1{
+        margin-left: 10px;
+        font-size: 18px;
+    }
+/* Header */
+#main img{
+    width:1350px;
+    position: absolute;
+}
+#main{
+    position: relative;
+
+}
+/* nav */
+#nav{
+    height: 60px;
+    width: 1350px;
+    position: absolute;
+    margin-top: 3px;
+    background-color: rgba(229, 229, 229, 0.16);
+    margin-top: -1px;
+}
+#nav img{
+    width:30px;
+    height:45px;
+    position: absolute;
+}
+#sectionfire{
+    width:400px;
+    height:65px;
+    position: absolute;
+}
+#sectionfire img{
+    margin-left: 140px;
+    margin-top: 6px;
+}
+#sectionfire h1{
+    margin-left: 200px;
+    font-family: cursive;
+    font-size: 26px;
+    margin-top: 14px;
+    color:#dfe4ea;
+}
+#mainnavul{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    margin-left: 170px;
+    margin-top: 20px;
+    list-style-type: none;
+}
+    #mainnavul li a{
+        font-size: 15px;
+        margin-left: 15px;
+        text-decoration: none;
+        color:#dfe4ea;
+    }
+    #mainnavul li:hover{
+        transform: scale(1.3);
+    }
+    #mainnavul li a:hover{
+        background-color: rgba(131, 126, 126, 0.247); 
+    }
+
+/* nav */
+#mainsection{
+    width: 500px;
+    height: 400px;
+    position: absolute;
+    margin-left: 450px;
+    margin-top: 300px;
+}
+#bir{
+    font-size: 95px;
+    font-family:  "sans-serif" "Lucida Calligraphy";
+    margin-left: 15px;
+    margin-top: -40px;
+    color:#dfe4ea;
+
+}
+#border{
+    border-top: 4px solid #dfe4ea;
+    border-bottom: 0.5px solid #dfe4ea;
+    border-left: hidden;
+    border-right: hidden;
+    width:900px;
+    height:10px;
+    margin-left: -200px;
+    position: absolute;
+    margin-top: -90px; 
+}
+#iki{
+    font-size:32px;
+    margin-top: -35px;
+    font-family: sans-serif;
+    color:#dfe4ea;
+}
+#uc{
+    font-size:20px;
+    font-family: sans-serif;
+    margin-left: 75px;
+    color:#dfe4ea;
+}
+#dord{
+    font-size:20px;
+    font-family: sans-serif;
+    margin-left: 10px;
+    color:#dfe4ea;
+}
+#bes{
+    font-size:20px;
+    font-family: sans-serif;
+    margin-left: 140px;
+    color:#dfe4ea;
+}
+#pageavarage{
+    width:600px;
+    height:150px;
+    position: absolute;
+    margin-top:800px;
+    margin-left: 450px;
+}
+#pageavarage p{
+    font-size: 50px;
+}
+#middleborder{
+    border:2px solid rgb(43, 40, 40);
+    border-left: hidden;
+    border-right: hidden;
+    border-top: 5px solid;
+    width:100px;
+    height: 10px;
+    margin-left: 140px;
+    margin-top: -40px;
+}
+#images{
+    width:1200px;
+    height: 300px;
+    position: absolute;
+    margin-top:1000px;
+    margin-left: 50px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    
+    
+
+}
+#first{
+    width: 300px;
+    height:250px;
+    background-color: rgba(192,192,192,0.5); 
+}
+#first:hover{
+    transform: scale(1.4);
+    overflow: hidden;
+}
+#iconeye{
+    padding:48%;
+    font-size: 20px;
+    color: rgba(212, 38, 38, 0);
+}
+#iconeye:hover{
+    color:rgba(212, 38, 38, 1)
+}
+#first a img{
+    width:300px;
+    height: 250px;
+}
+#p1{
+    font-size:35px;
+    position: absolute;
+    color:#d5dadf;
+    font-family: sans-serif;
+    margin-left:60px;
+    margin-top: 80px;
+}
+#borderfoot{
+    border:1px solid #d5dadf;
+    width:80px;
+    height: 10px;
+    position: absolute;
+    border-left: hidden;
+    border-right: hidden;
+    border-top: 4px solid #d5dadf;
+    margin-left:110px;
+    margin-top: 130px;
+}
+#p2{
+    font-size:20px;
+    position: absolute;
+    color:#d5dadf;
+    font-family: sans-serif;
+    margin-left:100px;
+    margin-top: 160px;
+
+}
+#second {
+    width: 300px;
+    height:250px;
+}
+#second:hover{
+    transform: scale(1.4);
+    overflow: hidden;
+}
+#iconey{
+    padding:48%;
+    font-size: 20px;
+    color: rgba(212, 38, 38, 0);
+}
+#iconey:hover{
+    color:rgba(212, 38, 38, 1)
+}
+#second img{
+    width:300px;
+    height: 250px;
+}
+#p3{
+    font-size:35px;
+    position: absolute;
+    color:#d5dadf;
+    font-family: sans-serif;
+    margin-left:60px;
+    margin-top: 80px;
+}
+#bordfoot{
+    border:1px solid #d5dadf;
+    width:80px;
+    height: 10px;
+    position: absolute;
+    border-left: hidden;
+    border-right: hidden;
+    border-top: 4px solid #d5dadf;
+    margin-left:110px;
+    margin-top: 130px;
+}
+#p4{
+    font-size:20px;
+    position: absolute;
+    color:#d5dadf;
+    font-family: sans-serif;
+    margin-left:100px;
+    margin-top: 160px;
+}
+#third{
+    width: 300px;
+    height:250px;
+}
+#third:hover{
+    transform: scale(1.4);
+    overflow: hidden;
+}
+#icone{
+    padding:48%;
+    font-size: 20px;
+    color: rgba(212, 38, 38, 0);
+}
+#icone:hover{
+    color:rgba(212, 38, 38, 1)
+}
+#third img{
+    width:300px;
+    height: 250px;
+}
+#p5{
+    font-size:35px;
+    position: absolute;
+    color:#d5dadf;
+    font-family: sans-serif;
+    margin-left:60px;
+    margin-top: 80px;
+}
+#bofoot{
+    border:1px solid #d5dadf;
+    width:80px;
+    height: 10px;
+    position: absolute;
+    border-left: hidden;
+    border-right: hidden;
+    border-top: 4px solid #d5dadf;
+    margin-left:110px;
+    margin-top: 130px;
+}
+#p6{
+    font-size:20px;
+    position: absolute;
+    color:#d5dadf;
+    font-family: sans-serif;
+    margin-left:100px;
+    margin-top: 160px;
+}
+#ourproducts{
+    position: absolute;
+    width:400px;
+    height: 200px;
+    margin-top: 1250px;
+    margin-left: 490px;
+}
+#ourproducts p{
+    font-family: serif;
+    font-size: 60px;
+}
+#borderproduct{
+    border: 2px solid black;
+    width:110px;
+    height: 10px;
+    position: absolute;
+    margin-top:1400px;
+    margin-left: 600px;
+    border-right: hidden;
+    border-left: hidden;
+    border-top: 5px solid;
+}
+#footprice{
+    width:1000px;
+    height:400px;
+    position: absolute;
+    margin-top: 1450px;
+    margin-left: 120px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-content: center;
+}
+#product1{
+    width: 150px;
+    height:300px;
+}
+#backgroundhover{
+    position: absolute;
+    width: 200px;
+    height:200px;
+}
+#backgroundhover:hover{
+    background-color: rgb(160, 155, 155, 0.3);
+}
+#product1 img{
+    width:200px;
+    height:200px;
+    
+}
+
+#sale{
+    
+    width:35px;
+    height:15px;
+    position: absolute;
+    margin-left: 10px;
+    margin-top: -5px;
+    background-color:rgb(253, 152, 169);
+}
+#sale p{
+    color:white;
+    margin-top: -2px;
+}
+#productcontext{
+    margin-left: 40px;
+    margin-top: 220px;
+    position: absolute;
+    font-size: 12px;
+    color:rgba(17, 17, 17, 0.6);
+
+}
+#proprice{
+    margin-left: 60px;
+    margin-top: 220px;
+    position: absolute;
+    color:black;
+
+}
+#addtocart{
+    position: absolute;
+    margin-left: 60px;
+    margin-top: 250px;
+    background-color: rgb(253, 152, 169);
+    color:white;
+    border: hidden;
+    font-size: 16px;
+}
+#product2{
+    width: 150px;
+    height:300px; 
+}
+
+#product2 img{
+    width:200px;
+    height:200px;
+    
+}
+#backgroundhove{
+    position: absolute;
+    width: 200px;
+    height:200px;
+}
+#backgroundhove:hover{
+    background-color: rgb(160, 155, 155, 0.3);
+}
+#product3{
+    width: 150px;
+    height:300px;  
+    
+}
+
+#product3 img{
+    width:200px;
+    height:200px;  
+}
+#backgrou{
+    position: absolute;
+    width: 200px;
+    height:200px;
+}
+#backgrou:hover{
+    background-color: rgb(160, 155, 155, 0.3);
+}
+#product4{
+    width: 150px;
+    height:300px;
+    
+}
+#product4 img{
+    width:200px;
+    height:200px; 
+}
+#backgroun{
+    position: absolute;
+    width: 200px;
+    height:200px;
+}
+#backgroun:hover{
+    background-color: rgb(160, 155, 155, 0.3);
+}
+#imagecofee{
+   width: 1350px;
+   margin-top: 400px;
+   position: absolute;
+   height:600px;
+   margin-left: 50px;
+}
+#imagecofee img{
+    position: absolute;
+}
+#iconcup{
+    position: absolute;
+    margin-left: 620px;
+    margin-top: 160px;
+    font-size: 60px;
+    color: rgb(221, 218, 218, 0.8);
+}
+#cupcontent{
+    font-family: sans-serif; 
+    position: absolute;
+    margin-left: 270px;
+    margin-top:240px;
+    font-size: 80px;
+    color: rgb(245, 241, 241);
+}
+#bordercup{
+    border: 4px solid #dfe4ea;
+    position: absolute;
+    margin-left: 620px;
+    margin-top:370px;
+    width: 70px;
+    height: 10px;
+    border-left:hidden;
+    border-right: hidden;
+    border-bottom: 1px solid #dfe4ea;  
+}
+#cupconte{
+    position: absolute;
+    margin-left: 440px;
+    margin-top:440px;
+    font-size: 20px;
+    color:#dfe4ea;
+    text-align: center;
+}
+#imagecofee input{
+    background-color: rgb(187, 53, 53);
+    position: absolute;
+    margin-left: 610px;
+    margin-top:550px;
+    height: 30px;
+    border:hidden;
+    color: #dfe4ea;
+}
+#testimonials{
+    position: absolute;
+    margin-top: 1250px;
+    font-size: 40px;
+}
+#testiborder{
+    border:6px solid black;
+    width:60px;
+    height:10px;
+    position: absolute;
+    margin-top: 1320px;
+    border-left: hidden;
+    border-right: hidden;
+    border-bottom: 2px solid black;
+}
+#ipsum{
+    position: absolute;
+    margin-top: 1360px;
+    margin-left: -50px;
+    color: rgba(151, 148, 148, 0.89);   
+}
+#lizzie{
+    position: absolute;
+    margin-top: 1500px;
+    font-size: 25px;
+}
+#wordpress{
+    position: absolute;
+    margin-top: 1550px;
+    font-size: 25px;
+    color:rgba(151, 148, 148, 0.733);
+}
+
+#radiusp{
+    position: absolute;
+    margin-top: 1600px;
+    font-size: 70px;
+}
+#footimage{
+    position: absolute;
+    width:1300px;
+    height:350px;
+    margin-top: 1700px;
+    margin-left: 30px;
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+}
+#picturefoot{
+    width:360px;
+    height: 300px;
+}
+#picturefoot img{
+    width:365px;
+    height: 300px;
+}
+#firsthover{
+    width:340px;
+    height: 300px;
+    position: absolute;
+    z-index: 1;
+}
+#firsthover:hover{
+    background-color:  rgb(34, 32, 32, 0.5);  
+}
+#picturefoo{
+    width:365px;
+    height: 300px;
+}
+#picturefoo img{
+    width:365px;
+    height: 300px;
+}
+#secondhover{
+    width:340px;
+    height: 300px;
+    position: absolute;
+    z-index: 1;
+}
+#secondhover:hover{
+    background-color:  rgb(34, 32, 32, 0.5);  
+}
+#picturefo{
+    width:365px;
+    height: 300px;
+}
+#picturefo img{
+    width:365px;
+    height: 300px;
+}
+#thirdhover{
+    width:340px;
+    height: 300px;
+    position: absolute;
+    z-index: 1;
+}
+#thirdhover:hover{
+    background-color:  rgb(34, 32, 32, 0.5);  
+}
+#picturef{
+    width:365px;
+    height: 300px;
+}
+#picturef img{
+    width:365px;
+    height: 300px;
+}
+#fourhover{
+    width:365px;
+    height: 300px;
+    position: absolute;
+    z-index: 1;
+}
+#fourhover:hover{
+    background-color:  rgb(34, 32, 32, 0.5);  
+}
+#icon{
+    padding:48%;
+    font-size: 20px;
+    color: rgba(212, 38, 38, 0);
+}
+#icon:hover{
+    color:rgba(212, 38, 38, 1)
+}
+/* footer */
+#footer{
+    width:1340px;
+    height:300px;
+    position: absolute;
+    margin-top: 2000px;
+    margin-left: 50px;
+    background-color: rgba(34, 32, 32, 0.76);
+}
+#footparaqraph{
+    font-size: 20px;
+    font-family: sans-serif;
+    margin-top: 100px;
+    color:#dfe4ea;
+    text-align: center;
+}
+#footer small p{
+    font-size: 12px;
+    font-family: sans-serif;
+    color:#dfe4ea;
+    text-align: center;
+}
